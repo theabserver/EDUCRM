@@ -1,0 +1,19 @@
+{
+  "Student": {
+    "key": "int",
+    "name": "string",
+    "age": "int",
+    "father": "string",
+    "mother": "string",
+    "course": "string",
+    "class": "string",
+    "section": "string",
+    "attendance": "int",
+    "recent_performance": "string",
+    "comments": "string",
+    "phone": "int",
+    "email": "string",
+    "residence": "string",
+    "dob": "date"
+  }
+}

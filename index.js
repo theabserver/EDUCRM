@@ -1,14 +1,6 @@
-import React from 'react'
-import { render } from 'react-dom'
-import { Router } from 'react-router-dom'
-import App from "./src/app";
+import React from "react"
+import App from "./src/app"
+import { render } from "react-dom"
+import "antd/dist/antd.css"
 
-
-render(
-    <Router history={history}>
-      <App />
-    </Router>,
-  document.getElementById('root')
-)
-  
-export default App;
+render(<App />, document.getElementById("root"))
