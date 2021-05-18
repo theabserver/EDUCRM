@@ -1,5 +1,5 @@
 import React from 'react'
-import { Popover, Button, Space } from "antd"
+import { Popover, Button, Space, Avatar } from "antd"
 import {
   UserOutlined,
 } from "@ant-design/icons"
@@ -13,12 +13,10 @@ function Profile({user}) {
     return (
       <>
         <Popover content={content} title="Profile" trigger="click">
-          <Button>
-            <Space>
-              <UserOutlined />
-              {user}
-            </Space>
-          </Button>
+          <Space>
+            <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
+            {user}
+          </Space>
         </Popover>
       </>
     )

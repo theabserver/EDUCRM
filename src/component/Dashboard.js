@@ -1,10 +1,10 @@
 import React from 'react'
-
+import MeetingScheduler from "./MeetingScheduler"
 const Dashboard = () => {
     return (
-        <div>
-            Dashboard Component
-        </div>
+      <div>
+        <MeetingScheduler />
+      </div>
     )
 }
 

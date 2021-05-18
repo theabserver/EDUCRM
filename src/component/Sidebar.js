@@ -1,5 +1,6 @@
 import React, {useState} from "react"
 import "./Sidebar.css"
+import "./Student.css"
 import logo from "../../logo.png"
 import { Layout, Menu, Breadcrumb } from "antd"
 import { Link } from "react-router-dom"

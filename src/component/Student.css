@@ -1,0 +1,10 @@
+.student-table td:last-child button{
+    visibility: hidden;
+}
+.student-table tr:hover td:last-child button{
+    visibility: visible;
+}
+
+.student-table td:last-child button:focus{
+    visibility: visible;
+}
